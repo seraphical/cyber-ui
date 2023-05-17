@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "jsx": "react-jsx",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "lib": ["esnext", "dom"],
+    "allowJs": true,
+    "baseUrl": ".",
+    "paths": {
+      "@cyber-ui/*": ["./packages/*", "./*"]
+    }
+  },
+  "include": ["packages/*.d.ts", "docs"],
+  "exclude": ["node_modules"]
+}

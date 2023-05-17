@@ -1,0 +1,20 @@
+{
+  "name": "cyber-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.0.3",
+    "chalk": "^4.1.2",
+    "execa": "^5.1.0",
+    "fs-extra": "^10.1.0",
+    "pnpm": "^8.3.1",
+    "vite": "^2.9.13"
+  }
+}

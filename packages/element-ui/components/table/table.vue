@@ -16,9 +16,17 @@ export default {
     layout: {},
     isPagination: {},
   },
-  methods: {},
+
+  // link,tag
+  methods: {
+    slot() {
+      return this.columns.map((item) => {
+        return h();
+      });
+    },
+  },
   render: (h) => {
-    return h(ElTable);
+    return h(ElTable, {}, this.slot);
   },
 };
 </script>

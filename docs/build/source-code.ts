@@ -21,7 +21,7 @@ const sourceCode = () => {
       const match = src.match(reg)?.map((_) => {
         const [packageName, compPath] = sourceSplit(_);
         console.log(packageName, compPath);
-        const suffix = packageName.includes('ant') ? 'jsx' : 'vue';
+        const suffix = packageName.includes('react') ? 'jsx' : 'vue';
         return fsPromises.readFile(
           path.resolve(
             packagesPath,
